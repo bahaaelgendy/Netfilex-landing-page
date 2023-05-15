@@ -1,0 +1,75 @@
+body {
+    font-family: 'DynaPuff', cursive;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar .img {
+    width: 50%;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.425);
+    z-index: 1;
+    border-bottom: 1px solid rgba(95, 95, 95, 0.514);
+}
+
+.nav-item {
+    padding: 1rem;
+}
+
+.nav-item a {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.nav-item a:hover {
+    color: rgb(249 8 8 / 90%);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: rgb(249 8 8 / 90%);
+}
+
+.dropdown-menu a {
+    color: rgba(0, 0, 0, 0.9);
+}
+.nav-link:focus, .nav-link:hover {
+    color: rgb(249 0 0 / 70%);
+}
+.text {
+    position: absolute;
+    top: 26%;
+    left: 19%;
+    color: rgb(249 8 8 / 90%);
+    width: 40%;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.btn i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.inf {
+    display: flex;
+    align-items: center;
+}
+
+
